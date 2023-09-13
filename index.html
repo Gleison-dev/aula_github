@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula Pull-Request</title>
+    <style>
+        body{
+        margin: 0;
+        background-color: black;
+        padding: 10px 20px;
+        margin-left: 35%;
+        overflow: hidden;
+    }
+    </style>
 </head>
 <body>
-    <input type="number" id="numero1" placeholder="Número 1">
-    <input type="number" id="numero2" placeholder="Número 2">
-    
-    <button onclick="calcularSoma()">Calcular Soma</button>
-    
-    <p>Resultado: <span id="resultado"></span></p>
+    <p style="color: white; font-family: sans-serif; font-size: 14px; margin-bottom: 6px;">
+        <span>Score: </span><span id="scoreEl">0</span>
+    </p>
+    <canvas></canvas>
 
     <script src="script.js"></script>
 </body>
